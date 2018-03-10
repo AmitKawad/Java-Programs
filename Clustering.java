@@ -1,3 +1,11 @@
+/* K means Clustering algorithm in Java*/
+
+
+
+
+
+
+
 import java.util.*;
 import java.lang.Math;
 public class Clustering
