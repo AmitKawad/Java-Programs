@@ -91,4 +91,18 @@ public class Clustering
 
 
 		}
+	
+	
+	
 }
+
+			/* OUTPUT
+			11
+			19
+			printing cluster 1
+			[3, 6, 10, 11]
+			Printing cluster 2
+			[16, 19, 23, 30, 25]
+			Average of cluster 1 is 7.5
+			Average of cluster 2 is 22.6
+			*/
