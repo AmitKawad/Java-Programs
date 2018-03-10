@@ -19,7 +19,7 @@ public class Clustering
 			
 			
 			ArrayList<Integer> cluster1 = new ArrayList<Integer>();  /*Array list for cluster since the number of 
-											elements are not deterministic*/
+											elements are not deterministic */
 			ArrayList<Integer> cluster2 = new ArrayList<Integer>();
 			int[] myarray={3, 6, 10, 16, 19, 23, 30, 11, 25};       // Observations
 			int random=(int)(Math.random()*8);                      //Generate Random number in the range of size of the array//
@@ -29,14 +29,14 @@ public class Clustering
 			{
 				random=(int)(Math.random()*8);		/* If both the random numbers generated happen to be 
 									the same,keep
-									generating a pair of random numbers until they are distinct*/
+									generating a pair of random numbers until they are distinct */
 										
 				random2=(int)(Math.random()*8);
 			}
 			
 			m1=myarray[random];				/*Assign the random number needed for the algorith
 									to the index of the array by using the random number
-									generated above*/
+									generated above */
 			m2=myarray[random2];
 
 			System.out.println(m1);					//RANDOM ELEMENTS from the Array//
@@ -45,7 +45,7 @@ public class Clustering
 			 for(i=0;i<myarray.length;i++)			/* Run a loop for the entire length of the  
 			 							array and compare every element 
 										with both the random numbers generated 
-											from the array*/
+											from the array */
 			 {
 			 		int sum1=Math.abs(myarray[i]-m1);
 			 		int sum2=Math.abs(myarray[i]-m2);
