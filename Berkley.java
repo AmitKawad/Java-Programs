@@ -1,3 +1,7 @@
+//Berkley's Clock Synchronization Algorithm in Java.
+
+
+
 import java.util.*;
 import java.lang.Math;
 public class Berkley
@@ -69,3 +73,22 @@ public class Berkley
 	}
 
 }
+
+
+
+
+
+					/* OUTPUT
+					time for System 0is 3:0
+					time for System 1is 2:50
+					time for System 2is 3:25
+					Sum is 15
+					average is 5
+					Time for System 0 is 3:5
+					time for System 1is 3:5
+					ime for System 2is 3:5
+
+					
+					
+					
+					*/
